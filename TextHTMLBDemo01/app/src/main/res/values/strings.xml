@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="linktext">百度一下，你就知道~：<a href="http://www.baidu.com/">百度</a></string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:id="@+id/tv_ma"
+            android:background="@drawable/malphaimage">
+        </TextView>
+        <TextView
+            android:id="@+id/tv_mr"
+            android:background="@drawable/mrotationimage">
+        </TextView>
+    </TableRow>
+    <TableRow
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:id="@+id/tv_ms"
+            android:background="@drawable/mscaleimage">
+        </TextView>
+        <TextView
+            android:id="@+id/tv_mt"
+            android:background="@drawable/mtranslationimage">
+        </TextView>
+    </TableRow>
+
+</TableLayout>

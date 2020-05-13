@@ -1,0 +1,10 @@
+<resources>
+    <!--    登录页面的中文-->
+    <string name="app_name">Yangtzeuoffic</string>
+    <string name="input_number">请输入学号</string>
+    <string name="input_pass">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="label_number">学号：</string>
+    <string name="label_password">密码：</string>
+    <string name="login_ing">登录中，请稍等</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center_horizontal">
+    <Button
+        android:onClick="stopClick"
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:background="#F08080"
+        android:text="关闭服务"
+        android:textColor="#6C6C6C"
+        android:textSize="18sp"/>
+    <Button
+        android:onClick="startClick"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_above="@id/btn_stop"
+        android:layout_marginBottom="110dp"
+        android:background="#B0E0E6"
+        android:text="开启服务"
+        android:textColor="#6C6C6C"
+        android:textSize="18sp"/>
+</RelativeLayout>

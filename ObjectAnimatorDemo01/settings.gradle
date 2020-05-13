@@ -1,0 +1,2 @@
+rootProject.name='ObjectAnimatorDemo01'
+include ':app'
